@@ -28,7 +28,7 @@ public class DemoActivity extends Activity {
             public void onClick(View view) {
                 IntentIntegrator integrator = new IntentIntegrator(DemoActivity.this);
                 integrator.setPromptMessage("自定义提示信息");
-                integrator.setUpdateFlag(false);
+                //integrator.setUpdateFlag(false);
                 //integrator.setPromptMessageByID();
                 integrator.initiateScan();
             }
