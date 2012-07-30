@@ -106,12 +106,12 @@ public class IntentIntegrator {
     public static final String DECODE_RESULT_CONTENT = "DECODE_RESULT_CONTENT";
     public static final String DECODE_RESULT_CODE = "DECODE_RESULT_CODE";
 
-    public static final String DEFAULT_TITLE = "Install Barcode Scanner?";
-    public static final String DEFAULT_MESSAGE = "This application requires Barcode Scanner. Would you like to install it?";
-    public static final String DEFAULT_YES = "Yes";
-    public static final String DEFAULT_NO = "No";
+    public static final String DEFAULT_TITLE = "安装彩码快拍?";
+    public static final String DEFAULT_MESSAGE = "此程序需要彩码快拍，是否安装?";
+    public static final String DEFAULT_YES = "是";
+    public static final String DEFAULT_NO = "否";
 
-    private static final String BS_PACKAGE = "com.aicaima.client.android";
+    private static final String BS_PACKAGE = "com.aicaima.app.android";
 
 
     // supported barcode formats
